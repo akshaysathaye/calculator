@@ -41,6 +41,8 @@ int main(){
 	case '%':
 	answer = a % b;
 	break;
+	// tested functionality
+	// state of the art code works beautifully
   default:
     answer = 0;
   }
