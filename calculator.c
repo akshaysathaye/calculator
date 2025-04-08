@@ -37,6 +37,10 @@ int main(){
       answer = answer * a;
     }
     break;
+
+	case '%':
+	answer = a % b;
+	break;
   default:
     answer = 0;
   }
