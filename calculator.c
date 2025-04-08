@@ -6,7 +6,9 @@ int main(){
   char operator;
   int answer;
   int i;
-  printf("Enter d for decimal or h for hexadecimal:\n");
+
+// hexadecimal and decimal calculator
+printf("Enter d for decimal or h for hexadecimal:\n");
   scanf("%c", &d_or_h);
   if(d_or_h == 'd'){
       printf("Enter calculation:\n");
